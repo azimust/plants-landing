@@ -1,0 +1,338 @@
+@media (max-width: 1260px){
+    .header__content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .header__image{
+        background-image: url(../img/leafs.png);
+        background-size: cover;
+        background-position: 0%;
+        width: 280px;
+        height: 254px;
+        order: 1;
+    }
+    .header__info{
+        order: 0;
+    }
+    .header__title {
+        font-size: 35px;
+    }
+    .header__subtitle {
+        font-size: 16px;
+    }
+    /* ____________________________ */
+    .about__body {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about__title{
+        text-align: center;
+    }
+    /* ____________________________________ */
+    .service__title {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .service__items {
+        padding-top: 40px;
+    }
+    .item__img{
+        width: 280px;
+    }
+    /* ____________________________________ */
+    .prices__title {
+        font-size: 35px;
+    }
+    .prices__text {
+        font-size: 25px;
+    }
+    /* ____________________________________ */
+    .contact__section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact__img {
+        margin-top: 250px;
+        width: 200px;
+        height: 248.49px;
+        order: 1;
+    }
+    .accordion-city {
+        margin-top: 100px;
+        order: 0;
+    }
+}
+@media (max-width: 1220px) {
+    .item__info {
+        padding: 10px 5px 36px;
+    }
+}
+@media (max-width: 800px) {
+    .about__image{
+        width: 250px;
+        height: 258px;
+    }
+    .footer__body {
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer__rss {
+        padding-left: 0px;
+    }
+    .footer__date {
+        padding-top: 16px;
+    }
+    .footer__socials{
+        padding-top: 27px;
+    }
+}
+@media (max-width: 720px){
+    .btn__service:nth-child(3){
+        margin-top: 9px;
+    }
+}
+@media (max-width: 710px){
+    .header__content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .header__image{
+        background-image: url(../img/leafs.png);
+        background-size: cover;
+        background-position: 0%;
+        width: 230px;
+        height: 194px;
+        order: 1;
+    }
+    .header__title {
+        font-size: 25px;
+    }
+    .header__subtitle {
+        font-size: 16px;
+    }
+    /* _________________________________ */
+    .service__items {
+        gap: 10px;
+        justify-content:center;
+    }
+}
+@media (max-width: 670px){
+    .nav__link {
+        font-size: 10px;
+    }
+}
+@media (max-width: 615px){
+    .header__content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .header__image{
+        display: none;
+    }
+    .header__title {
+        line-height: 35px;
+    }
+    .header__subtitle {
+        padding-top: 20px;
+        font-size: 16px;
+    }
+    /* ____________________________ */
+    .about__body{
+        padding: 30px 0px;
+    }
+    .about__title {
+        font-size: 25px;
+    }
+    .about__subtitle {
+        font-size: 15px;
+    }
+    .about__image{
+        width: 150px;
+        height: 147px;
+    }
+    /* ____________________________________ */
+    .service__body{
+        padding: 30px 0px 27px;
+    }
+    .service__title {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .btn__service{
+        font-size: 15px;
+    }
+    /* ____________________________________ */
+    .prices__body{
+        display: flex;
+        flex-direction: column;
+        padding: 25px 0px 40px 0px;
+    }
+    .prices__header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .prices__title {
+        font-size: 25px;
+    }
+    .prices__text {
+        font-size: 20px;
+        text-align: center;
+        line-height: 35px;
+        order: 0;
+    }
+    .price__img {
+        display: none;
+    }
+    .price__button{
+        font-size: 15px;
+    }
+    .prices__section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .prices__accordion {
+        padding: 18px 22px;
+        order: 1;
+    }
+    .accordion__info{
+        padding: 16px 30px;
+    }
+    .accordion__title {
+        font-size: 15px;
+    }
+    /* ____________________________________ */
+    .contacts__body {
+        padding-top: 25px;
+    }
+    .contact__title {
+        font-size: 25px;
+    }
+    .contact__img {
+        margin-top: 135px;
+        width: 100px;
+        height: 124.25px;
+        order: 1;
+    }
+    .accordion-city__btn{
+        max-width: 300px;
+        padding: 5px 20px;
+    }
+    .accordion-city__title {
+        margin-right: 200px;
+    }
+    .accordion-city {
+        margin-top: 100px;
+        order: 0;
+    }
+}
+.hamb{
+    display: none;
+}
+.popup{
+    display: none;
+}
+@media (max-width: 570px) {
+    .nav__list{
+        display: none;
+    }
+    .hamb{
+        display: flex;
+        align-items: center;
+    }
+    .hamb__field{
+        cursor: pointer;
+    }
+    .bar{
+        display: block;
+        width: 30px;
+        height: 2px;
+        margin: 4px auto;
+        background-color: #717171;
+    }
+    .popup{
+        position: fixed;
+        top: 145px;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        z-index: 50;
+        display: flex;
+        transition: 0.3s;
+    }
+    .popup__open{
+        left: 0;
+    }
+    .popup .nav__list{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0px;
+        overflow: auto;
+    }
+    .popup .nav__list li{
+        padding: 30px 0px;
+    }
+    .popup .nav__list li a{
+        font-size: 20px;
+    }
+
+    .hamb__field.active .bar:nth-child(1){
+        transform: translateY(9px) rotate(45deg);
+        transition: 0.4s;
+    }
+    .hamb__field .bar:nth-child(1){
+        transition: 0.4s;
+    }
+    .hamb__field.active .bar:nth-child(2){
+        visibility: hidden;
+    }
+    .hamb__field.active .bar:nth-child(3){
+        visibility: hidden;
+    }
+    .hamb__field.active .bar:nth-child(4){
+        transform: translateY(-9px) rotate(-45deg);
+        transition: 0.4s;
+    }
+    .hamb__field .bar:nth-child(4){
+        transition: 0.4s;
+    }
+    body.noscroll{
+        overflow: hidden;
+    }
+}
+@media (max-width: 510px) {
+    .btn__service{
+        padding: 8px 38px;
+        margin-right: 5px;
+    }
+    .lawn{
+        padding: 8px 42px;
+        margin-right: 0px;
+    }
+}
+@media (max-width: 420px) {
+    .accordion-city__btn{
+        max-width: 240px;
+        padding: 5px 20px;
+    }
+    .accordion-city__title {
+        margin-right: 120px;
+    }
+}
+@media (max-width: 368px) {
+    .lawn{
+        margin-top: 10px;
+    }
+}
